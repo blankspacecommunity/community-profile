@@ -525,6 +525,7 @@
         }
     };
 
+    javascript
     var parallax = function() {
         if ($('div').hasClass('bg-text')) {
             new simpleParallax(document.getElementsByClassName('bg-text'), {
@@ -532,6 +533,7 @@
                 orientation: 'right'
             });
         }
+        updateprogress();
     };
 
     var sticky = function() {
