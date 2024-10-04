@@ -12,6 +12,7 @@
 @import "swiper-bundle.min.css";
 @import "../font/font.css";
 @import "bootstrap.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 /**
   	* Reset Browsers
     * General
@@ -1211,7 +1212,7 @@ a:focus {
 /* main-nav */
 .header_1 #main-nav {
     position: absolute;
-    left: 22.48%;
+    left: 37.48%;
     top: 50%;
     z-index: 0;
     -webkit-transform: translateY(-50%);
@@ -1556,7 +1557,6 @@ a:focus {
 }
 
 .widget-menu ul li a::after {
-    content           : '';
     width             : 0;
     height            : 1px;
     position          : absolute;

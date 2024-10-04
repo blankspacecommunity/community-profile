@@ -1116,7 +1116,6 @@
 
 .widget-categories ul li .cate-item::before {
     font-family: 'icomoon';
-    content: "\e92b";
     position: absolute;
     left: 0;
     font-size: 16px;
